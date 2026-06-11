@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prasad Sambare | Flutter Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+
+    <h2 class="logo">Prasad.</h2>
+
+    <ul>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+<!-- HERO -->
+<header>
+
+    <div class="hero">
+
+        <div class="heroText">
+
+            <h3>Hello, I'm</h3>
+            <h1>Prasad Sambare</h1>
+            <h2 id="typing"></h2>
+
+            <p>
+                Passionate Flutter Developer creating
+                modern mobile and web applications.
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects">View Projects</a>
+
+                <a href="resume.pdf">Resume</a>
+
+            </div>
+
+        </div>
+
+        <div>
+
+            <img src="profile.png">
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+
+    <h1>About Me</h1>
+
+    <p>
+        I am a Flutter Developer with experience in
+        Firebase, REST APIs and UI/UX design.
+    </p>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+
+    <h1>Skills</h1>
+
+    <div class="skillBox">
+
+        <div>Flutter</div>
+        <div>Dart</div>
+        <div>Firebase</div>
+        <div>REST API</div>
+        <div>Provider</div>
+        <div>GitHub</div>
+         <div>Figma</div>
+         <div>Wireframe</div>
+        <div>Prototype</div>
+         <div>Ui/ux design</div>
+
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+
+    <h1>Projects</h1>
+
+    <div class="cards">
+
+        <!-- PROJECT 1 -->
+        <div class="card">
+
+            <img src="project1.png">
+
+            <h2>E-Commerce App</h2>
+
+            <p>Flutter shopping app with Firebase.</p>
+
+            <div class="projectBtn">
+
+                <a href="https://github.com/codefriendly-app/e-commerce-app-"
+                   target="_blank">GitHub</a>
+
+                <a href="#"
+                   onclick="openGallery(1)">Screens</a>
+
+                <a href="#">APK</a>
+
+            </div>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="card">
+
+            <img src="project2.png">
+
+            <h2>Blood Donor App</h2>
+
+            <p>Emergency blood donor app.</p>
+
+            <div class="projectBtn">
+
+                <a href="#">GitHub</a>
+
+                <a href="#" onclick="openGallery(2)">Screens</a>
+
+                <a href="#">APK</a>
+
+            </div>
+
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="card">
+
+            <img src="project3.png">
+
+            <h2>Notes App</h2>
+
+            <p>Add, delete, update notes.</p>
+
+            <div class="projectBtn">
+
+                <a href="https://github.com/codefriendly-app/Smart-Note">GitHub</a>
+
+                <a href="#" onclick="openGallery(3)">Screens</a>
+
+                <a href="#">APK</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+    <h1>Contact Me</h1>
+
+    <p>Email: sambarep515@email.com</p>
+    <p>GitHub: https://github.com/codefriendly-app</p>
+    <p>LinkedIn: www.linkedin.com/in/prasad-sambare</p>
+
+</section>
+
+<footer>
+
+    <h3>© 2026 Prasad Sambare</h3>
+    <p>Designed & Developed by Prasad</p>
+
+</footer>
+
+<!-- IMAGE GALLERY MODAL -->
+<div id="modal" class="modal">
+
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <img id="modalImg">
+
+    <div class="nav">
+
+        <button onclick="prevImage()">Prev</button>
+        <button onclick="nextImage()">Next</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
